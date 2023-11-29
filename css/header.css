@@ -51,7 +51,7 @@
 
 
 
-.headerPrincipal-nav-link {
+.cajita {
 	background-color: #FFF;
 	color: #434446;
 	padding: 10px;
@@ -61,12 +61,11 @@
 	border-bottom: 1px solid #9799A6;
 	width: auto;
 	margin-left:10px;
-}
-.headerPrincipal-nav-link {
+
 	border-radius: 10px;
 	border: 1px solid #9799A6;
-}
 
+}
 
 
 .linkme:hover {

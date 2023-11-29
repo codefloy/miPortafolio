@@ -27,7 +27,8 @@
 .pag3-container-left{
 width: 70px;
 }
-.pag3-ul{
+.pag3-rigth{
+	width: 100%;
 	display: flex;
 	justify-content: center;
 	list-style: none;

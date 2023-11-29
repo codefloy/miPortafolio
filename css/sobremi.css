@@ -10,11 +10,9 @@
 
 .pag1-seccion1{
    width: 50%;
-   margin-top: 300px;
-   margin-left: 75px;
+   margin-top: 230px;
+   margin-left: 300px;
 }
-
-
 .pag1-linea{
    font-family: 'Inter', sans-serif;
    font-size: 30pt;
@@ -25,33 +23,26 @@
 
    padding-top: 15px;
 }
-
 .pag1-linea3{
    font-family: 'Inter', sans-serif;
    font-size: 30pt;
 
    padding-top: 20px;
 }
-
-
 .pag1-linea4{
-
    color: #070707;
    font-size: 30px;
    font-family: 'IBM Plex Sans', sans-serif;
    line-height: 1.5;
-
    padding-top: 25px;
 }
 
 .pag1-seccion2{
    width: 50%;
 }
-
 .fotoperfil{
 	width: 400px;
    padding-top: 150px;
-   padding-left: 150px;
    border-radius: 50px;
 }
 
