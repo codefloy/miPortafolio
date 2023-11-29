@@ -1,0 +1,14 @@
+
+html{
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: #b9b9b900;
+	font-family: 'Open Sans',Arial,sans-serif;
+}
+
+
+.container {
+	width: 100%;
+ }

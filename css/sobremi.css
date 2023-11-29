@@ -1,0 +1,57 @@
+
+
+.pagina1{
+   background-color: #F2E570;
+   display: flex;
+
+   width: 100%;
+   height: 923px;
+}
+
+.pag1-seccion1{
+   width: 50%;
+   margin-top: 300px;
+   margin-left: 75px;
+}
+
+
+.pag1-linea{
+   font-family: 'Inter', sans-serif;
+   font-size: 30pt;
+}
+.pag1-linea2{
+   font-family: 'Iceberg', cursive;
+   font-size: 70pt;
+
+   padding-top: 15px;
+}
+
+.pag1-linea3{
+   font-family: 'Inter', sans-serif;
+   font-size: 30pt;
+
+   padding-top: 20px;
+}
+
+
+.pag1-linea4{
+
+   color: #070707;
+   font-size: 30px;
+   font-family: 'IBM Plex Sans', sans-serif;
+   line-height: 1.5;
+
+   padding-top: 25px;
+}
+
+.pag1-seccion2{
+   width: 50%;
+}
+
+.fotoperfil{
+	width: 400px;
+   padding-top: 150px;
+   padding-left: 150px;
+   border-radius: 50px;
+}
+

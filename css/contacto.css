@@ -1,0 +1,45 @@
+
+
+.pagina4 {
+	background-color: #8eb99b;
+    height: 930px;
+	display: flex;
+}
+.pag4-seccion-left{
+width: 100px;
+
+}
+.pag4-seccion-rigth {
+	width: 100%;
+	color: #FFF;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.pag4-title {
+	font-size: 100px;
+	font-weight: bolder;
+}
+.pag4-list {
+	font-size: 1.3em;
+	line-height: 2;
+}
+.iconos-contacto{
+	display: flex;
+}
+
+.pag4-button {
+	border-radius: 8px;
+	background-color: #ec6e5a;
+	display: block;
+	color: #FFF;
+	border: none;
+	height: 50px;
+	font-size: .8em;
+	outline: none;
+	margin: 5px;
+}
+.videoSobre-sobre {
+	margin-left: 1.5em;
+}
