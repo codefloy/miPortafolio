@@ -18,7 +18,7 @@
 }
 .menu{
 	position: relative;
-	left: 0;
+	left: 5px;
 
 	border-style: groove;
 	border-color: #00000000;
@@ -27,7 +27,6 @@
 	flex-direction: column;
 
 	justify-content: center; /*Centrar verticalmente*/
-	align-items: center;
 }
 
 .containerheader nav a{
@@ -47,15 +46,20 @@
 {
 	opacity: 1;
 	transition: 0.3s;
+	
 }
 
+.cajita{
+	width: 60px;
+	border-radius: 50%;
+}
 
-
-.cajita {
+/* .cajita {
 	background-color: #FFF;
 	color: #434446;
 	padding: 10px;
 	margin-bottom: 10px ;
+	font-family:  Verdana, Geneva, Tahoma, sans-serif;
 	text-decoration: none;
 	transition: .5s;
 	border-bottom: 1px solid #9799A6;
@@ -64,11 +68,18 @@
 
 	border-radius: 10px;
 	border: 1px solid #9799A6;
+} */
 
+.ico_header{
+	width: 50px;
+	padding-left: 5px;
+	padding-top: 4px;
+	
 }
 
 
 .linkme:hover {
+	
 	color: #000000;
 	background-color: #F2E570;
 }
