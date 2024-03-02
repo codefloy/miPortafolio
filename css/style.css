@@ -4,8 +4,9 @@ html{
 }
 
 body {
-	background-color: #b9b9b900;
-	font-family: 'Open Sans',Arial,sans-serif;
+	background-image: url("/img/FondoTodo.png");
+	background-size: cover;
+	
 }
 
 

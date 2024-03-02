@@ -1,7 +1,7 @@
 
 
 .pagina1{
-   background-color: #F2E570;
+   background-size: cover;
    display: flex;
 
    width: 100%;
@@ -9,10 +9,16 @@
 }
 
 .pag1-seccion1{
+   display: flex;
    width: 50%;
-   margin-top: 230px;
-   margin-left: 300px;
+   justify-content: center;
+   align-items: center; /*Centrar verticalmente*/
+   /* margin-top: 230px;*/
+   margin-left: 250px; 
+   color: aliceblue;
 }
+
+
 .pag1-linea{
    font-family: 'Inter', sans-serif;
    font-size: 30pt;
@@ -20,17 +26,14 @@
 .pag1-linea2{
    font-family: 'Iceberg', cursive;
    font-size: 70pt;
-
    padding-top: 15px;
 }
 .pag1-linea3{
    font-family: 'Inter', sans-serif;
    font-size: 30pt;
-
    padding-top: 20px;
 }
 .pag1-linea4{
-   color: #070707;
    font-size: 30px;
    font-family: 'IBM Plex Sans', sans-serif;
    line-height: 1.5;
@@ -38,11 +41,15 @@
 }
 
 .pag1-seccion2{
+   display: flex;
+   flex-direction: column;
    width: 50%;
+   align-items: center;
+   justify-content: center;
 }
+
 .fotoperfil{
 	width: 400px;
-   padding-top: 150px;
-   border-radius: 50px;
+   border-radius: 25px 25px 25px 25px;
 }
 

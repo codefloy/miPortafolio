@@ -29,7 +29,8 @@ width: 100px;
 }
 .r2{
 	display: flex;
-	gap: 50px;
+	margin-top: 25px;
+	gap: 45px;
 	justify-content: center;
 	align-items: center;
 }
@@ -38,18 +39,6 @@ width: 100px;
 	width: 45px;
 }
 
-.pag4-button {
-	border-radius: 8px;
-	background-color: #ec6e5a;
-	display: block;
-	color: #000000;
-	border: none;
-	height: 50px;
-	font-size: .8em;
-	outline: none;
-	margin: 5px;
-}
-.videoSobre-sobre {
-	margin-left: 1.5em;
-}
+
+
 

@@ -1,14 +1,14 @@
 
 
 .pagina2{
-    background-color: #40a6ff;
     display: flex;
     height: 930px;
+    font-family: 'Open Sans',Arial,sans-serif;
 }
 
 .pag2-subti{
     width: 100%;
-    background-color: #cabcff;
+    color: #ffffff;
     height: 75px;
     vertical-align: baseline;
 }
