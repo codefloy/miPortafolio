@@ -48,6 +48,7 @@
 
 .fotoperfil{
 	width: 600px ;
+    clip-path: circle(70%); 
 }
 
 
@@ -97,7 +98,15 @@
    border-radius: 10px 50px 10px 50px;
 }
 
+.linked{
+   width: 60px;
+	border-radius: 50%;
+}
 
+.lili:hover{
+   background-color: #F2E570;
+}
+}
 
 
 }

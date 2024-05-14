@@ -44,36 +44,30 @@
 {
 	opacity: 1;
 	transition: 0.3s;
-	
 }
 
-.cajita{
-	width: 60px;
-	border-radius: 50%;
-}
 
 .ico_header{
 	width: 50px;
 	padding-left: 5px;
 	padding-top: 4px;
-	
+}
+.cajita{
+	width: 60px;
+	border-radius: 50%;
 }
 
+
 .linkme:hover {
-	
-	color: #000000;
 	background-color: #F2E570;
 }
 .linkformacion:hover {
-	color: #FFF;
 	background-color: #40a6ff;
 }
 .linkproyectos:hover {
-	color: #FFF;
 	background-color: #e87844;
 }
 .linkcontacto:hover {
-	color: #000000;
 	background-color: #8eb99b;
 }
 
@@ -83,5 +77,5 @@
 	.menu{
 		display: none;
 	}
-   
+	
 }
