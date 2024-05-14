@@ -1,45 +1,43 @@
 
-
 .pagina2{
     display: flex;
-    height: 930px;
+    height: 100vh;
     font-family: 'Open Sans',Arial,sans-serif;
 }
 
+.pag2-seccion{
+    display:  block;
+    width: 50%;
+    align-content: baseline;
+    align-items: center;
+}
+
 .pag2-subti{
-    width: 100%;
-    color: #ffffff;
-    height: 75px;
+    display: flex;
+	justify-content: center;
     vertical-align: baseline;
+    color: #ffffff;
 }
 .subtitulo{
+    text-align: center;
     font-size: 30pt;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
     padding: 20px;
 }
-.pag2-seccion1{
-    display:  block;
-    
-    width: 50%;
-    align-content: center;
-}
+
 
 
 .pag2-contenido1-flex{
     width: 100%;
-    height: 700px;
-
     display: grid;
-    grid-template-columns: repeat(2,15rem);
+
+    grid-template-columns: repeat(2,14rem);
     justify-content: center;
     align-content: center;
-    /* display: flex;
-    flex-direction: row;
-    flex-wrap: wrap; */
+    
 	padding: 10px 10px 10px;
 }
-.formacion__estudios {
+.formacion-caja {
     width: 150px;
     height: 200px;
     background: #ffffff;
@@ -48,13 +46,14 @@
     border: 0.15rem solid #a7a7a7;
     border-radius: 10px;
 }
-.formacion__cursos{
+.fcaja-titulo{
     font-size: 19px;
+    text-align: center;
 }
 .formacion__lugar {
     font-family: 'Roboto Mono', monospace;
     font-size: 1.2rem;
-    text-align: center;
+    text-align: left;
     color: #F5DF4D;
 }
 .formacion__curso {
@@ -62,33 +61,29 @@
     font-size: 0.85rem;
     text-align: left;
     color: #232323;
-    padding: 0.6rem 0;
 }
 
 
-
-
-
-.pag2-seccion2{
-    display: block;
-    width: 50%;
-}
 .pag2-contenido2{
     display: flex;
     flex-direction: column;
 }
 .contenido2-esp{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-
 .titulo-habilidad{
-    width: 70%;
-    height: 32px;
+    width: 40%;
+    height: 60px;
     border-radius: 7px;
     font-size: 18px;
-    margin: 10px 0px 0px 10px;
-    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+}
+.titulo-habilidad-h3{
+    
 }
 .subtitulo-especialidad{
     color: #000000;
@@ -133,3 +128,42 @@
     padding: 1px 0;
 }
 
+
+@media (max-width:760px){
+
+    .pagina2{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+
+    .pagina2-seccion{
+        display: block;
+    }
+
+    .pag2-subti{
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .pag2-contenido1{
+        display: flex;
+        justify-content: center;
+    }
+
+    .pag2-contenido1-flex{
+        display: block;
+        justify-content: center;
+        align-content: center;
+        /* display: flex;
+        flex-direction: row;
+        flex-wrap: wrap; */
+        padding-top: 150px;
+        padding:  10px 10px 10px;
+    }
+
+ 
+
+}
