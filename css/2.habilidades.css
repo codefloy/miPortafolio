@@ -22,33 +22,49 @@
     text-align: center;
     font-size: 30pt;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 20px;
 }
-
 
 
 .pag2-contenido1-flex{
     width: 100%;
-    display: grid;
-
-    grid-template-columns: repeat(2,14rem);
-    justify-content: center;
-    align-content: center;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 	padding: 10px 10px 10px;
 }
+
+.formacion-contai{
+    display: flex;
+}
+
+.imgform{
+width: 120px;
+}
+
 .formacion-caja {
-    width: 150px;
-    height: 200px;
+    width: 70%;
+    height: 140px;
     background: #ffffff;
     margin: 10px;
     padding: 10px;
     border: 0.15rem solid #a7a7a7;
     border-radius: 10px;
+    overflow: hidden;
+    display: flex;
 }
+
+.fcaja1{
+    width: 50%;
+}
+.fcaja2{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .fcaja-titulo{
     font-size: 19px;
-    text-align: center;
 }
 .formacion__lugar {
     font-family: 'Roboto Mono', monospace;
@@ -64,40 +80,37 @@
 }
 
 
-.pag2-contenido2{
+
+
+
+.titulo-habilidad {
+    width: 650px;
+    height: 30px;
+    border-radius: 18px;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.contenido2-esp{
+ 
+h3{
+    font-size: 18px;
     display: flex;
-    flex-direction: column;
     align-items: center;
 }
 
-.titulo-habilidad{
-    width: 40%;
-    height: 60px;
-    border-radius: 7px;
-    font-size: 18px;
-    display: flex;
-    justify-content: center;
-}
-.titulo-habilidad-h3{
-    
-}
 .subtitulo-especialidad{
     color: #000000;
     font-family: monospace;
     font-size: 20px;
 }
-.titfront{
-    background-color: #ffe194;
+.titcolorfront{
+    background-color: #fbbc75;
 }
-.titback{
-    background-color: #a2fa83;
+.titcolorback{
+    background-color: #c3fbaf;
 }
-.titbd{
-    background-color: #ff7cfb;
+.titcolorbd{
+    background-color: #b1aefd;
 }
 
 
@@ -113,14 +126,14 @@
     border: 0.15rem solid #a7a7a7;
     border-radius: 10px;
 }
-.formacion__lugar2 {
+.hab__lugar {
     font-family: 'Roboto Mono', monospace;
     font-size: 1.2rem;
     text-align: left;
     margin-left: 25px;
     color: #000000;
 }
-.formacion__curso2 {
+.hab__curso {
     font-family: 'Roboto Mono', monospace;
     font-size: 0.85rem;
     text-align: left;

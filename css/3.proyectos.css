@@ -59,7 +59,7 @@ width: 70px;
 	left: 0;
 }
 .pag3-elemento:hover {
-	box-shadow: 4px 4px 4px #CCC;
+	box-shadow: 4px 4px 4px #09f36b;
 }
 .pag3-elemento a:before {
 	content: '';
@@ -67,6 +67,14 @@ width: 70px;
 	width: 50px;
 	height: 50px;
 	margin: 10px auto;
+}
+
+.pag3-elemento{
+	overflow: hidden;
+}
+
+.imgg{
+
 }
 
 @media (max-width:760px){
