@@ -10,7 +10,7 @@
     align-content: baseline;
     align-items: center;
 }
-.p2-subti{
+.p2-subtis{
     display: flex;
 	justify-content: center;
     vertical-align: baseline;
@@ -43,7 +43,7 @@
     display: flex;
 }
 .fcaja1{
-    width: 50%;
+    width: 70%;
 }
 .fcaja-titulo{
     font-size: 19px;
@@ -67,7 +67,7 @@
     justify-content: center;
 }
 .imgform{
-    width: 120px;
+    width: 150px;
     }
 
 
