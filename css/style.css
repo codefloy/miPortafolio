@@ -9,28 +9,26 @@ body {
 }
 
 
-
-
-
-
-
-
+.contenedor{
+	display: flex;
+}
+.relleno{
+width: 100px;
+}
+.conte{
+width: 100%;
+}
 
 
 
 
  @media (max-width:760px){
 
-body{
-	display: block;
-	gap: 50px;
+
+
+.relleno{
+	display: none;
 }
 
-.contenedor{
-}
-
-html {
-	display: block;
-}
 
  }
