@@ -4,15 +4,13 @@
     height: 100vh;
     font-family: 'Open Sans',Arial,sans-serif;
 }
-
-.pag2-seccion{
+.p2-seccion{
     display:  block;
     width: 50%;
     align-content: baseline;
     align-items: center;
 }
-
-.pag2-subti{
+.p2-subti{
     display: flex;
 	justify-content: center;
     vertical-align: baseline;
@@ -24,8 +22,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-
-.pag2-contenido1-flex{
+.p2-s1-contenido{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -33,36 +30,21 @@
 	padding: 10px 10px 10px;
 }
 
-.formacion-contai{
-    display: flex;
-}
-
-.imgform{
-width: 120px;
-}
 
 .formacion-caja {
-    width: 70%;
-    height: 140px;
+    width: 60%;
+    height: 130px;
     background: #ffffff;
     margin: 10px;
-    padding: 10px;
+    padding: 15px;
     border: 0.15rem solid #a7a7a7;
     border-radius: 10px;
     overflow: hidden;
     display: flex;
 }
-
 .fcaja1{
     width: 50%;
 }
-.fcaja2{
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .fcaja-titulo{
     font-size: 19px;
 }
@@ -70,7 +52,7 @@ width: 120px;
     font-family: 'Roboto Mono', monospace;
     font-size: 1.2rem;
     text-align: left;
-    color: #F5DF4D;
+    color: #4d69f5;
 }
 .formacion__curso {
     font-family: 'Roboto Mono', monospace;
@@ -78,6 +60,34 @@ width: 120px;
     text-align: left;
     color: #232323;
 }
+.fcaja2{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgform{
+    width: 120px;
+    }
+
+
+/*
+.pag2-contenido2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}*/
+
+.p2-s2-contenido{
+    display: flex;
+    height: 700px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 
 
 
@@ -142,6 +152,15 @@ h3{
 }
 
 
+
+
+
+
+
+
+
+
+
 @media (max-width:760px){
 
     .pagina2{
@@ -151,11 +170,11 @@ h3{
         height: 100%;
     }
 
-    .pagina2-seccion{
+    .p2-seccion{
         display: block;
     }
 
-    .pag2-subti{
+    .p2-subti{
         display: flex;
         align-items: center;
         text-align: center;
@@ -176,7 +195,5 @@ h3{
         padding-top: 150px;
         padding:  10px 10px 10px;
     }
-
- 
 
 }
