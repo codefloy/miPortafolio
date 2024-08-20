@@ -64,12 +64,17 @@
    text-align: center;
    font-size: 15pt;
 }
-.p1-linea3{
-   display: none;
-}
+
 .textos{
    font-size: 10pt;
 }
+.consola-container{
+}
+.p1-linea3{
+   display: none;
+}
+
+
 
 
 

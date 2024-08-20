@@ -24,41 +24,58 @@
 .p3-elemento {
 	width: 300px;
 	height: 600px;
+	margin: 1%;
+
 	background-color: #FFF;
 	text-align: center;
-	margin: 1%;
-	margin-top: 50px;
 	transition: .3s;
 	box-shadow: 2px 2px 2px #CCC;
 	position: relative;
 	border-radius: 15PX;
 	border-color: aliceblue;
 	overflow: hidden;
+	display: flex;
+	flex-direction: column;
 }
-.p3-elemento a {
+/* .p3-elemento a {
 	text-decoration: none;
 	color: #000;
-	font-weight: bold;
 	display: block;
 	width: 100%;
 	height: 100%;
-	position: absolute;
 	top: 0;
+} */
+
+.img-proyecto{
 }
+
 .p3-elemento:hover {
 	box-shadow:  4px 4px 8px #f2fde5;
-}
-.p3-elemento a:before {
-	content: '';
-	display: block;
-	width: 50px;
-	height: 50px;
-	margin: 10px auto;
 }
 
 .imgg{
 width: 450px;
 }
+
+.proyecto-cabecera{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 20px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 15px;
+	height: 50px;
+	
+}
+
+.proyecto-titulo{
+ width: 80%;
+}
+
+.ico-proyectos{
+	width: 45px;
+}
+
 
 @media (max-width:760px){
 
