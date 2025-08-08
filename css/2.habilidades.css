@@ -104,8 +104,8 @@
     display: flex;
 }
 .hab-card {
-    width: 200px;
-    height: 150px;
+    width: 15rem;
+    height: 10rem;
     background: #ffffff;
     margin: 10px;
     border: 0.15rem solid #a7a7a7;
@@ -138,6 +138,7 @@
     }
     .p2-seccion{
         display: flex;
+        flex-wrap: wrap;
         flex-direction: column;
     }
 
