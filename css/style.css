@@ -16,7 +16,7 @@ body {
 width: 100px;
 }
 .conte{
-width: 100%;
+	display: block;
 }
 
 
@@ -24,11 +24,15 @@ width: 100%;
 
  @media (max-width:760px){
 
-
+.contenedor{
+	display: block;
+}
 
 .relleno{
 	display: none;
 }
-
+.conte{
+	display: block;
+}
 
  }

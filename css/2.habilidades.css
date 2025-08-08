@@ -127,6 +127,8 @@
 }
 
 @media (max-width:760px){
+
+    
     .pagina2{
         display:flex;
         flex-direction: column;
@@ -146,8 +148,9 @@
     .formacion-caja {
         width: 170%;
     }
-
-    .p2-s2-contenido{
+.fcaja-titulo{
+}    
+.p2-s2-contenido{
         display: flex;
     }
     

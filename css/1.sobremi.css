@@ -68,7 +68,8 @@
 .textos{
    font-size: 10pt;
 }
-.consola-container{
+.console-container{
+   font-size: 15px;
 }
 .p1-linea3{
    display: none;

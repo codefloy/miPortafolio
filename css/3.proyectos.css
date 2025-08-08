@@ -4,10 +4,7 @@
 	height: 100vh;
 }
 .p3-titulo{
-	padding-top: 20px;
-	height: 50px;
 	font-size: 30pt;
-	
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	color: #FFF;
 }
@@ -16,14 +13,13 @@
 	margin-top: 1px;
 	display: flex;
 	justify-content: center;
-
 	width: 100%;
 	list-style: none;
 }
 
 .p3-elemento {
 	width: 300px;
-	height: 600px;
+	height: 300px;
 	margin: 1%;
 
 	background-color: #FFF;
@@ -36,6 +32,8 @@
 	overflow: hidden;
 	display: flex;
 	flex-direction: column;
+
+	margin-top: 50px;
 }
 /* .p3-elemento a {
 	text-decoration: none;
@@ -80,16 +78,13 @@ width: 450px;
 @media (max-width:760px){
 
     .pagina3{
-        display:block;
+        display:flex;
 		flex-direction: column;
-		justify-content: center;
 		height: 43%;
     }
 
 	.p3-container{
-		display: flex;
 		flex-direction: column;
-		justify-content: center;
 		align-items: center;
 	}
 	.p3-titulo{

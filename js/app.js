@@ -6,8 +6,6 @@
 // openMenuBtn.addEventListener("click",toggleMenu);
 // closeMenuBtn.addEventListener("click",toggleMenu);
 
-
-
 const menuLinks = document.querySelectorAll(' .menu a[href^="#"]');
 
 const observer = new IntersectionObserver((entries) => {
@@ -34,7 +32,7 @@ menuLinks.forEach((menuLink) => {
 
 
 // function([string1, string2],target id,[color1,color2])    
-consoleText(['Hola,', 'Buen día,'], 'text',['tomato','rebeccapurple','lightblue']);
+consoleText(['Hola,', 'Buen día,'], 'text',['lightblue','green','tomato','rebeccapurple']);
 
 function consoleText(words, id, colors) {
   if (colors === undefined) colors = ['#fff'];
@@ -45,8 +43,8 @@ function consoleText(words, id, colors) {
   var waiting = false;
   var target = document.getElementById(id)
   target.setAttribute('style', 'color:' + colors[0])
+  
   window.setInterval(function() {
-
     if (letterCount === 0 && waiting === false) {
       waiting = true;
       target.innerHTML = words[0].substring(0, letterCount)
@@ -72,15 +70,14 @@ function consoleText(words, id, colors) {
       letterCount += x;
     }
   }, 120)
+
   window.setInterval(function() {
     if (visible === true) {
       con.className = 'console-underscore hidden'
       visible = false;
-
     } else {
       con.className = 'console-underscore'
-
       visible = true;
-    }
+      }
   }, 400)
 }
