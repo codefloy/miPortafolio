@@ -1,7 +1,7 @@
 .pagina1{
    background-size: cover;
    display: flex;
-   height: 100vh;
+   min-height: 100vh;
 }
 
 .p1-s1{
